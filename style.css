@@ -85,7 +85,7 @@ font-family: "Open Sans", sans-serif;
 }
 
 #home {
-    background-image: url(../images/home.jpg);
+    background-image: url(./images/home.jpg);
     min-height: 100vh;
     margin-top: 30px;
 }
