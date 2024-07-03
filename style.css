@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+/*--共通部分--*/
+html{
+    font-size: 100%;
+}
+
+body{
+    line-height: 1.7;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width:100%
+}
+
+h2 , nav{
+font-family: "Open Sans", sans-serif;
+}
+
+/*header*/
+
+.logo{
+    margin-top:2px;
+    width:50px;
+}
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    padding:0 4%;
+    background-color: #ECA5BE;
+    height: 80px;
+
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin:0 0 0 auto;
+    font-size:  1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+.main-nav a {
+    color:#906868;
+}
+
+.main-nav a:hover {
+    color:#8b0000;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*home*/
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+.big-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(../images/home.jpg);
+    min-height: 100vh;
+    margin-top: 30px;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+
+/*about*/
+.name{
+    font-size: 20px;
+    color :#906868;
+
+}
+.box1 {
+    width: 1100px;
+    background-color:rgba(251, 248, 248, 0.7);
+    text-align: center;
+    color:#906868;
+    border: solid 3px #d59ec6;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    /* 水平方向の中央揃え */
+    margin: 15px auto;
+}
+
+.container{
+    display: flex;
+    /* 水平方向の中央揃え */
+    margin: 0 auto 0 auto;
+    width: 550px;
+}
+
+.photos {
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+/*hoverimage1!!!!*/
+.hover-img1 {
+    position: relative;
+    width: 250px;
+}
+.hover-img1 img {
+    margin:0;
+    width: 250px;
+}
+.hover-text1 {
+    color:#fff;
+    width: 250px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.hover-img1:hover .hover-text1{
+    opacity: 1;
+    font-size: 1rem;
+}
+
+/*hoverimage2!!!!*/
+.hover-img2 {
+    position: relative;
+    width: 250px;
+}
+.hover-img2 img {
+    margin:0;
+    width: 250px;
+}
+.hover-text2 {
+    color:#fff;
+    width: 250px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.hover-img2:hover .hover-text2{
+    opacity: 1;
+    font-size: 1rem;
+}
+
+/*hoverimage3!!!!*/
+.hover-img3 {
+    position: relative;
+    width: 250px;
+}
+.hover-img3 img {
+    margin:0;
+    width: 250px;
+}
+.hover-text3 {
+    color:#fff;
+    width: 250px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.hover-img3:hover .hover-text3{
+    opacity: 1;
+    font-size: 1rem;
+}
+.photos {
+    display: flex;
+}
+
+/*contact*//*フォーム*/
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+    color:#8b0000;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    background: rgba(251, 248, 248, 0.5);
+    border: solid 3px #d59ec6;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+    width:100%;
+    max-width:240px;
+}
+textarea{
+    width:100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+
+/*--production*/
+.production1 {
+    display: block;
+    gap:26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.production2 {
+    max-width: 20%;
+}
+.production p ,.wdg {
+    font-size:14px;
+    font-color:#906868;
+    text-align: center;
+}
+.wdg {
+    display: flex;
+}
+
+.production4 {
+    max-width: 30%;
+    /* 水平方向の中央揃え */
+    margin: 0 auto 0 auto;
+}
+
+.production5 {
+    min-height: 50px;
+
+}
+
+hr{
+    height: 2px;
+    background: brown;
+    border: none;
+}
+
+/*--footer--*/
+footer {
+    text-align: center;
+    padding: 26px 0;
+}
+
