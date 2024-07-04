@@ -85,7 +85,7 @@ font-family: "Open Sans", sans-serif;
 }
 
 #home {
-    background-image: url(https://github.com/youxandy11/myportfolio/blob/main/home.JPG?raw=true);
+    background-image: url("https://github.com/youxandy11/myportfolio/blob/main/home.JPG?raw=true");
     min-height: 100vh;
     margin-top: 30px;
 }
