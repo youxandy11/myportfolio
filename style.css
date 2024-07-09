@@ -283,6 +283,11 @@ hr{
     background: brown;
     border: none;
 }
+.production6 {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+}
 
 /*--footer--*/
 footer {
