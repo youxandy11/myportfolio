@@ -309,5 +309,8 @@ footer {
 
     .photos {
         flex-direction: column;
+    
+    #home  background-image{
+        position: center;
 
 }
