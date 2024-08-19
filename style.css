@@ -295,3 +295,10 @@ footer {
     padding: 26px 0;
 }
 
+@media (max-width: 600px){
+    .container{
+    display: column;
+    /* 水平方向の中央揃え */
+    margin: 0 auto 0 auto;
+    width: auto;
+}
