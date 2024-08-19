@@ -300,9 +300,10 @@ footer {
     display: column;
     /* 水平方向の中央揃え */
     margin: 0 auto 0 auto;
-    width: auto;}
+    width: auto;
+    }
     
     .box1 {
-        display:column;
+        display:block;
     }
 }
