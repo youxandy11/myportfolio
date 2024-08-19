@@ -303,7 +303,11 @@ footer {
     width: auto;
     }
     
-    .box1 {
-        display:block;
+    .box1 {        
+        flex-direction: column;
     }
+
+    .photos {
+        flex-direction: column;
+
 }
